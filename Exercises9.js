@@ -1,29 +1,26 @@
-function shoutOut() {
-    return 'Halo Function';
-  }
-  
-var tampung = shoutOut ();
-console.log (tampung)
-
-
-
-
-function calculateMultiply (num1, num2) {
-    return num1 * num2
+//No.1
+function shoutOut(){
+    return "Halo Function!";
 }
+console.log(shoutOut());
 
-var num1 = 5;
-var num2 = 6;
-
-console.log(calculateMultiply (num1,num2))
-
-
-var name ='Niko';
-var age = 22;
-var address = 'Medan';
-var hobby = 'Basket';
-
-function processSentence() {
-    return 'Nama saya' +  name + ' Umur saya ' +  age + ' Alamat saya ' +  address + ' Hobby saya ' +  hobby
+//No.2
+function calculateMultiply(num1, num2){
+    return num1*num2;
 }
-console.log (processSentence ())
+var num1=5;
+var num2=6;
+var hasilPerkalian = calculateMultiply(num1,num2);
+console.log(hasilPerkalian);
+
+//No.3
+var name = "Agus";
+var age = 30;
+var address = "Jln. Malioboro, Yogjakarta";
+var hobby = "gaming";
+
+function processSentence(name1, age1, address1, hobby1){
+    return "Nama saya "+name1+", umur saya "+age1+" tahun, alamat saya di "+address1+", dan saya punya hobby yaitu "+hobby1+"!";
+}
+var fullsentence = processSentence(name,age,address,hobby);
+console.log(fullsentence);
