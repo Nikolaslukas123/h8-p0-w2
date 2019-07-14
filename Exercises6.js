@@ -1,68 +1,52 @@
-var angka = 2;
-console.log ('Looping pertama');
-while (angka <=20 ) {
-    console.log (angka + ' I love coding');
-angka +=2;
+///////////////
+console.log("LOOPING PERTAMA");
+var counter=2;
+while(counter<21){
+    console.log(counter + " - I love coding");
+    counter=counter+2;
 }
-var angkake2 = 20;
-console.log ('Looping kedua');
-while (angkake2 > 0) {
-    console.log (angkake2 +)' I love coding';
-    angkake2 -=2;
+counter=20;
+console.log("LOOPING KEDUA")
+while(counter>1){
+    console.log(counter + " - I will become fullstack developer");
+    counter=counter-2;
+}
+//////////////////
+console.log("LOOPING PERTAMA");
+for(var i = 1; i<21;i++){
+    console.log(i+" - I love coding");
+}
+console.log("LOOPING KEDUA");
+for(var i = 20; i>0;i--){
+    console.log(i+" - I will become fullstack developer");
+}
 
-}
-console.log('Looping pertama');
-for(var angka = 1; angka <= 20; angka++) {
-    console.log(angka + ' I love coding ');
-  }
-console.log('Looping kedua');
-for(var angka = 20; angka >=1; angka--) {
-    console.log (angka + ' I will become fullstack developer');
-}
-
-var angka = 1;
-while (angka <=20) {
-    if ( (angka % 2) ==0) 
-    {
-        console.log(angka +' :Genap');
-      
+//////////////////
+for(var i=1;i<101;i++){
+    if((i%2)!==0){
+        console.log("GANJIL");
+    }else if((i%2)===0){
+        console.log("GENAP");
     }
-    else {
-        console.log (angka +' :Ganjil');
+}
+for(var i=1;i<101;i=i+2){
+    if((i%3)===0){
+        console.log(i+" KELIPATAN 3");
+    }else{
+        console.log('""');
     }
-    angka++;
 }
-
-var counter3 = 3;
-console.log ('Kelipatan 3 dengan pertambahan 2');
-console.log ('Angka yang kamu masukkan :' + counter3);
-for(var counter3; counter3 <= 100; counter3+=2) {
-    if ((counter3 % 3) == 0) {
-        console.log (counter3 + 'Kelipatan 3');
-    } else {
-        console.log ('""');
+for(var i=1;i<101;i=i+5){
+    if((i%6)===0){
+        console.log(i+" KELIPATAN 6");
+    }else{
+        console.log('""');
     }
-
 }
-
-var counter6 = 6;
-console.log ('Kelipatan 6 dengan pertambahan 5');
-console.log ('Angka yang kamu masukkan : ' + counter6);
-for (var counter6; counter6 <=100; counter6 +=5) {
-   if ((counter6 % 6) == 0) {
-       console.log (counter6 + 'Kelipatan 6');
-   } else {
-       console.log ('""');
-   }
-}
-
-var counter9 = 9;
-console.log ('Kelipatan 9 dengan pertambahan 9');
-console.log ('Angka yang kamu masukkan : ' + counter9);
-for (var counter9; counter9 <=100; counter9 +=9) {
-    if ((counter9 % 9) ==0) {
-        console.log (counter9 + 'Kelipatan 9')
-    } else {
-        console.log ('""');
+for(var i=1;i<101;i=i+9){
+    if((i%10)===0){
+        console.log(i + " KELIPATAN 10");
+    }else{
+        console.log('""');
     }
 }
