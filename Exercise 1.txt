@@ -1,0 +1,74 @@
+No1
+Algorithm:
+-Berat
+-Percepatan
+-kalikan Berat dengan Percepatan
+-simpan hasil di newton
+-tampilkan hasil
+
+Pseudocode:
+SET "m" value with 600
+SET "a" value with 2
+
+CALCULATE "m" times "a"
+SET "newton" value with result
+DISPLAY "newton" 
+
+--------------------
+No2
+Algorithm:
+-Jumlah hari dalam tahun
+-jika hari habis di bagi 4 dan ada sisa jika dibagi 100 atau
+ hari habis dibagi 4 dan habis dibagi 100 dan habis dibagi 400
+-tampilkan "ini tahun kabisat"
+
+Pseudocode:
+SET "days" value with days of the year
+IF (("days" modulo 4 equal to 0 and "days" modulo 100 is not 0) 
+    or ("days" modulo 4 equal to 0 and "days" modulo 100 equal to 0 
+    and "days" modulo 400 equal to 0))
+    
+    DISPLAY "It's a Leap Year"
+END IF
+
+--------------------
+No3
+Algorithm:
+-pasang cucian dengan angka 0
+-lakukan loop selama cucian kurang dari 20 
+    yang mana di tiap loop value dari cucian akan di naikan 1
+-lakukan "jalankan mesin cuci"
+
+Pseudocode:
+SET "cucian" value with 0
+WHILE "cucian" < 20
+    ADD "cucian" by 1
+END WHILE
+
+DO "jalankan mesin cuci"
+
+--------------------
+No4
+Algorithm:
+-set nilai dari siswa dengan 0
+-lakukan loop selama siswa kurang dari 40
+    -jika kuku siswa panjang
+        -lakukan hukuman
+        -increment siswa
+    -jika kuku siswa tidak panjang
+        -lakukan pujian
+        -increment siswa
+
+Pseudocode:
+SET "siswa" value with 0
+WHILE "siswa" < 40
+    IF "siswa" kuku == panjang
+        DO "hukum"
+        ADD "siswa" value by 1
+    ELSE
+        DO "puji siswa"
+        ADD "siswa" value by 1
+    END IF
+END WHILE
+
+--------------------
