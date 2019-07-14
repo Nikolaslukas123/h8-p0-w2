@@ -1,44 +1,130 @@
-var angka = 3;
-var bulan = 5;
-var tahun = 2000;
+var tanggal = 32;
+var bulan = 12;
+var tahun = 2020;
 
-switch (bulan) {
+switch(bulan) {
     case 1:
-        console.log (angka + 'Januari' + tahun);
+        {    
+        if(tanggal>0 && tanggal<32 && tahun>1899 && tahun<2201){
+        console.log(tanggal+" Januari "+tahun);
+        }
+        else{
+            console.log("Please check the Date and the Year");
+        }
         break;
-            case 2:
-                console.log (angka + 'Februari' + tahun);
-                break;
-                    case 3:
-                        console.log (angka + 'Maret' + tahun);
-                        break;
-                            case 4:
-                                console.log (angka + 'April' + tahun);
-                                break;
-                                    case 5:
-                                        console.log (angka + 'Mei' + tahun);
-                                        break;
-                                            case 6:
-                                                console.log (angka + 'Juni' + tahun);
-                                                break;
-                                            case 7:
-                                                console.log (angka + 'Juli' + tahun);
-                                                break;
-                                    case 8:
-                                        console.log (angka + 'Agustus' + tahun);
-                                        break;
-                            case 9:
-                                    console.log (angka + 'September' + tahun);
-                                    break;
-                    case 10:
-                            Console.log (angka + 'Oktober' + tahun);
-                            break;
-            case 11:
-                Console.log (angka + 'November' + tahun);
-                break;
+    } 
+    case 2:
+        {
+        if(tanggal>0 && tanggal<32 && tahun>1899 && tahun<2201){  
+        console.log(tanggal+" Februari "+tahun);
+        }
+        else{
+            console.log("Please check the Date and the Year");
+        }
+        break;
+    }
+    case 3:
+        {    
+        if(tanggal>0 && tanggal<32 && tahun>1899 && tahun<2201){    
+        console.log(tanggal+" Maret "+tahun);
+        }
+        else{
+            console.log("Please check the Date and the Year");
+        }
+        break;
+    } 
+    case 4:
+        {
+        if(tanggal>0 && tanggal<32 && tahun>1899 && tahun<2201){    
+        console.log(tanggal+" April "+tahun);
+        }
+        else{
+            console.log("Please check the Date and the Year");
+        }
+        break;
+    }
+    case 5:
+        {
+        if(tanggal>0 && tanggal<32 && tahun>1899 && tahun<2201){    
+        console.log(tanggal+" Mei "+tahun);
+        }
+        else{
+            console.log("Please check the Date and the Year");
+        }
+        break;
+    }
+    case 6:
+        {   
+        if(tanggal>0 && tanggal<32 && tahun>1899 && tahun<2201){    
+        console.log(tanggal+" Juni "+tahun);
+        }
+        else{
+            console.log("Please check the Date and the Year");
+        }
+        break; 
+    } 
+    case 7:
+        {
+        if(tanggal>0 && tanggal<32 && tahun>1899 && tahun<2201){    
+        console.log(tanggal+" Juli "+tahun);
+        }
+        else{
+            console.log("Please check the Date and the Year");
+        }
+        break;
+    }
+    case 8:
+        {
+        if(tanggal>0 && tanggal<32 && tahun>1899 && tahun<2201){   
+        console.log(tanggal+" Agustus "+tahun);
+        }
+        else{
+            console.log("Please check the Date and the Year");
+        }
+        break;
+    }
+    case 9:
+        {
+        if(tanggal>0 && tanggal<32 && tahun>1899 && tahun<2201){   
+        console.log(tanggal+" September "+tahun);
+        }
+        else{
+            console.log("Please check the Date and the Year");
+        }
+        break;
+    }  
+    case 10:
+        {
+        if(tanggal>0 && tanggal<32 && tahun>1899 && tahun<2201){    
+        console.log(tanggal+" Oktober "+tahun);
+        }
+        else{
+            console.log("Please check the Date and the Year");
+        }
+        break;
+    }
+    case 11:
+        {
+        if(tanggal>0 && tanggal<32 && tahun>1899 && tahun<2201){    
+        console.log(tanggal+" November "+tahun);
+        }
+        else{
+            console.log("Please check the Date and the Year");
+        }
+        break;
+    }
     case 12:
-        Console.log (angka + 'Desember' + tahun);
-        break;
-
+        {
+        if(tanggal>0 && tanggal<32 && tahun>1899 && tahun<2201){    
+        console.log(tanggal+" Desember "+tahun);
+        }
+        else{
+            console.log("Please check the Date and the Year");
+        }
+        break;                  
+    }
+    default:
+        {
+        console.log("Invalid input for bulan");
+    }
 }
-
